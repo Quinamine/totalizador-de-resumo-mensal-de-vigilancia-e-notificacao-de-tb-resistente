@@ -1,10 +1,13 @@
 "use strict"
 const referencia = {
-    retornarIndicadorEfaixaEtaria(inputTarget) {
-        const indicadorOutput = document.querySelector(".reference__output--indicador");
-        const faixaEtariaOutput = document.querySelector(".reference__output--idade");
+    retornarLinhaEcoluna(inputTarget) {
+        const linhaOutput = document.querySelector(".reference__output--indicador");
+        const colOutput = document.querySelector(".reference__output--idade");
         const celulaComFocoEirmas = inputTarget.parentElement.children;
-        // Seccoes
+
+        let indicadorLinear = inputTarget.parentElement.querySelector("span");
+        linhaOutput.textContent = indicadorLinear.textContent;
+        /* Seccoes
         let isSection1 = inputTarget.parentElement.parentElement.matches(".ficha__seccao__body--1");
         let isSection2 = inputTarget.parentElement.parentElement.matches(".ficha__seccao__body--2");
         let isSection3 = inputTarget.parentElement.matches(".ficha__seccao__body--3");
@@ -63,7 +66,7 @@ const referencia = {
                 }
             }
             faixaEtariaOutput.textContent = faixasEtarias[celulaFocadaIndex];
-        }
+        }*/
     },
     retornarVazio() {
         const outputs = document.querySelectorAll(".reference__output");
@@ -75,7 +78,7 @@ function events() {
     inputsCelulares.forEach( inputCelular => {
         inputCelular.addEventListener("focus", () => {
             if(!inputCelular.matches("[readonly]")) {
-                referencia.retornarIndicadorEfaixaEtaria(inputCelular);
+                referencia.retornarLinhaEcoluna(inputCelular);
             }
         });
     });
