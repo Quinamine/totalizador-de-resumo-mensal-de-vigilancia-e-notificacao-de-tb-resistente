@@ -257,6 +257,9 @@
     grid-template-columns: 680px 1fr;
     align-items: center;
 }
+.ficha__rodape__col-de-nome {
+    min-height: 26px;
+}
 .ficha__rodape__campo-de-nome {
     width: 400px;
     min-height: 22px;
