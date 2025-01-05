@@ -120,7 +120,7 @@
     padding-left: 2px;
 }
 .ficha__seccao__linha-de-nota {
-    min-height: 20px;
+    min-height: 24px;
     padding-left: 2px;
 }
 .ficha__seccao__header--seccao-2 {
@@ -139,12 +139,12 @@
     grid-template-columns: 263px repeat(2, 88.25px) 373px repeat(2, 88.25px);
 }
 .ficha__seccao-2__grid-template-cols-6 {
-    grid-template-rows: 28px;
+    grid-template-rows: 36px;
 }
 .ficha__seccao-2__grid-template-cols-4 {
     display: grid;
     grid-template-columns: 263px calc(2 * 88.25px) 373px calc(2 * 88.25px);
-    grid-template-rows: 38px;
+    grid-template-rows: 45px;
     margin-top: 5px;
 }
 .ficha__seccao-2__grid-template-cols-6 span,
