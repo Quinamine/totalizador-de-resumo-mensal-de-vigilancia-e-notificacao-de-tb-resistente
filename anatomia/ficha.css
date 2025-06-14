@@ -1,7 +1,7 @@
 ﻿.ficha {
     width: var(--layout-width);
     margin: 30px auto 14px;
-    color: var(--fullblack);
+    color: var(--black);
     font-size: 13.8px;
 }
 @media print {
@@ -67,7 +67,7 @@
 .ficha__header__col-de-titulo {
     grid-column: 1/4;
     padding: 5px 0;
-    background-color: var(--fullblack);
+    background-color: var(--black);
     color: var(--yt);
 }
 .ficha__titulo {
@@ -85,7 +85,7 @@
 .ficha__seccao__titulo--main {
     padding: 6px 0;
     text-transform: uppercase;
-    background-color: var(--fullblack);
+    background-color: var(--black);
     color: var(--yt);
 }
 .ficha__seccao__titulo--color-black {
@@ -230,10 +230,10 @@
     color: var(--cor-de-texto);
 }
 .--cor-de-fundo-padrao {
-    background-color: var(--gray--c);
+    background-color: var(--gray-c);
 }
 .--cor-de-fundo-padrao-discreta {
-    background-color: var(--gray--d);
+    background-color: var(--gray-d);
 }
 @media screen {
     .input--realcar-totais {
