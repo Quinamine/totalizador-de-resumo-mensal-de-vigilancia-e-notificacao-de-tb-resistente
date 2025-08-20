@@ -9,7 +9,7 @@ O **Totalizador de Resumo Mensal de Vigilância e Notificação de TB Resistente
 
 * Auxiliar os profissionais de saúde na totalização do resumo mensal de vigilância e notificação de TB resistente com exatidão e prontidão;
 
-* Minimizar possíveis erros de totalização (por exemplo, somar involuntariamente células não correspondentes ou registar o total da linha A, na linha B);
+* Minimizar possíveis erros de totalização (por exemplo, somar involuntariamente células não correspondentes ou registar o total da linha "A", na linha "B");
 
 * Expandir o acesso à ficha de resumo mensal de vigilância e notificação de TB resistente.
 
